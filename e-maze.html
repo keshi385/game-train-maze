@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Maze</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <!-- タイマ -->
+  <div class="timer">20 : 00 sec</div>
+
+  <!-- canvas -->
+  <canvas>
+    Canvas not supported.
+  </canvas>
+
+  <div class="mask hidden"></div>
+  <div class="popup hidden">
+    <div class="msgBox">MESSAGE</div>
+    <button class="retryButton">RETRY?</button>
+  </div>
+  
+  <!-- スクリプト -->
+  <script src="scripts/constant.js"></script>
+  <script src="scripts/wall.js"></script>
+  <script src="scripts/train.js"></script>
+  <script src="scripts/treasure.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
